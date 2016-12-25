@@ -49,7 +49,7 @@ class Equation {
 public:
 	Equation() {}
 	~Equation() {}
-	void final_stuff() {
+	void flags() {
 		Equation e;
 		vector<string> vect;
 		string s, ent; getline(cin, ent);
@@ -63,7 +63,7 @@ public:
 int main()
 {
 	Equation x;
-	x.final_stuff();
+	x.flags ();
 
 	return 0;
 }// end of main
